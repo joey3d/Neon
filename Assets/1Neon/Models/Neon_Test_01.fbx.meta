@@ -154,6 +154,9 @@ ModelImporter:
     100292: pCube264
     100294: pCube265
     100296: pCube266
+    100298: pCube267
+    100300: pCube268
+    100302: pCube269
     400000: ADN_Base_CPath02_1
     400002: ADN_Base_CPath_1
     400004: ADN_GeoNurbsPipe_1
@@ -303,6 +306,9 @@ ModelImporter:
     400292: pCube264
     400294: pCube265
     400296: pCube266
+    400298: pCube267
+    400300: pCube268
+    400302: pCube269
     2300000: New_QP_PolyPipe_1
     2300002: New_QP_PolyPipe_2
     2300004: New_QP_PolyPipe_3
@@ -439,6 +445,9 @@ ModelImporter:
     2300266: pCube264
     2300268: pCube265
     2300270: pCube266
+    2300272: pCube267
+    2300274: pCube268
+    2300276: pCube269
     3300000: New_QP_PolyPipe_1
     3300002: New_QP_PolyPipe_2
     3300004: New_QP_PolyPipe_3
@@ -575,6 +584,9 @@ ModelImporter:
     3300266: pCube264
     3300268: pCube265
     3300270: pCube266
+    3300272: pCube267
+    3300274: pCube268
+    3300276: pCube269
     4300000: pCylinder1
     4300002: pPlane1
     4300004: pPlane2
@@ -711,6 +723,9 @@ ModelImporter:
     4300266: pCube264
     4300268: pCube265
     4300270: pCube266
+    4300272: pCube267
+    4300274: pCube268
+    4300276: pCube269
   externalObjects:
   - first:
       type: UnityEngine:Material
