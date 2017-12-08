@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 252ae753bf45a364999da84798823a3e
+timeCreated: 1512693179
+licenseType: Pro
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _HDRI: {fileID: 2800000, guid: 1ce3eff9f7c04cf46bad19e997815888, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

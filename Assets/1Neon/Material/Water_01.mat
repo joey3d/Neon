@@ -26,6 +26,13 @@ Material:
         m_Texture: {fileID: 2800000, guid: 0f540a127aab8864bbd8b704321d806a, type: 3}
         m_Scale: {x: 20, y: 20}
         m_Offset: {x: 0, y: 0}
-    m_Floats: []
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 80b6110e30153aa4ea72aab9464006c4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
     m_Colors:
-    - _Diffuse: {r: 0.4779412, g: 0.48995945, b: 0.5, a: 1}
+    - _Color1: {r: 0.30882353, g: 0.29513633, b: 0.26567906, a: 1}
+    - _Color2: {r: 0.28676468, g: 0.2765854, b: 0.26567903, a: 1}
+    - _Diffuse: {r: 0.31617647, g: 0.31280944, b: 0.2673551, a: 1}
