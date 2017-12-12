@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2c77ce917dc09124c926cf27b3a7c613
+timeCreated: 1513116274
+licenseType: Pro
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _DirtNormal: {fileID: 2800000, guid: 4d8ceb55eb4503641b2286c0716f50fd, type: 3}
+  - _MudNormal: {fileID: 2800000, guid: 93393a1c26509644c87205b1d83087e5, type: 3}
+  - _GrassDirtNormal: {fileID: 2800000, guid: 93393a1c26509644c87205b1d83087e5, type: 3}
+  - _Mud: {fileID: 2800000, guid: 78d3842e36f022f4bb172df857d0a4b2, type: 3}
+  - _Dirt: {fileID: 2800000, guid: 1ff16b8515657394fa39f821bf7566ac, type: 3}
+  - _GrassDirt: {fileID: 2800000, guid: 19be1b6faed3bdc4082782a4099f5cd4, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

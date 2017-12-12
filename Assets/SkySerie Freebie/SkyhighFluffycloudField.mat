@@ -28,8 +28,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - <noninit>: 0
-    - _Exposure: 0.9
-    - _Rotation: 0
+    - _Exposure: 0.4
+    - _Rotation: 240
     m_Colors:
     - <noninit>: {r: 0, g: 9.150861e-35, b: 0, a: 9.150824e-35}
-    - _Tint: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _Tint: {r: 0.52205884, g: 0.4525922, b: 0.39922148, a: 0.5}
