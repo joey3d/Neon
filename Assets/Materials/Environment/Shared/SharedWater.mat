@@ -95,7 +95,7 @@ Material:
     - _Opacity: 1
     - _Parallax: 0.02
     - _ReflectionBias: 0.259
-    - _ReflectionIntensity: 1.02
+    - _ReflectionIntensity: 0
     - _Roughness: 0.1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
