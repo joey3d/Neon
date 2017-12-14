@@ -10,6 +10,7 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Aset_rock_granite_M_rbjtT_LOD5
+    4300002: sutr_tmave_sedy
     9500000: //RootNode
   externalObjects:
   - first:
@@ -17,6 +18,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: _Aset_rock_granite_M_rbjtT_LOD5default
     second: {fileID: 2100000, guid: 4672b9494fd146345abe6636f44badae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sutr_tmave_sedy
+    second: {fileID: 2100000, guid: ee6e030a5341fb34ca9044a98f88339d, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
