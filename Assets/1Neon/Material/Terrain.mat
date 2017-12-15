@@ -18,6 +18,30 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Mud:
+        m_Texture: {fileID: 2800000, guid: 78d3842e36f022f4bb172df857d0a4b2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - MudNormal:
+        m_Texture: {fileID: 2800000, guid: 93393a1c26509644c87205b1d83087e5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Sand:
+        m_Texture: {fileID: 2800000, guid: 78d3842e36f022f4bb172df857d0a4b2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Sand2:
+        m_Texture: {fileID: 2800000, guid: ec04b6587b2daee499fe9b8c3329eaaa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Sand2Normal:
+        m_Texture: {fileID: 2800000, guid: 10ff51d2d87fb7b46b70b55f8551c146, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - SandNormal:
+        m_Texture: {fileID: 2800000, guid: c0d10d4c1cba4d54a8e882d26e06a9df, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Albedo:
         m_Texture: {fileID: 2800000, guid: 1ff16b8515657394fa39f821bf7566ac, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -86,6 +110,66 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Sand:
+        m_Texture: {fileID: 2800000, guid: 9d5b19654870fc1428a305a55dad498a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sand1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sand1_Normal:
+        m_Texture: {fileID: 2800000, guid: c0d10d4c1cba4d54a8e882d26e06a9df, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sand2:
+        m_Texture: {fileID: 2800000, guid: ec04b6587b2daee499fe9b8c3329eaaa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sand2Normal:
+        m_Texture: {fileID: 2800000, guid: 40ed5b99d2c3e1548b80a6329dd02751, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SandNormal:
+        m_Texture: {fileID: 2800000, guid: 93393a1c26509644c87205b1d83087e5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: 40ed5b99d2c3e1548b80a6329dd02751, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture1:
+        m_Texture: {fileID: 2800000, guid: ec04b6587b2daee499fe9b8c3329eaaa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2:
+        m_Texture: {fileID: 2800000, guid: c0d10d4c1cba4d54a8e882d26e06a9df, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture3:
+        m_Texture: {fileID: 2800000, guid: 78d3842e36f022f4bb172df857d0a4b2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopTexture0:
+        m_Texture: {fileID: 2800000, guid: 78d3842e36f022f4bb172df857d0a4b2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopTexture1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopTexture2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopTexture3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -114,3 +198,4 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}

@@ -83,7 +83,7 @@ Material:
     - _DstBlend: 0
     - _EmissionScaleUI: 0
     - _Float3: 10
-    - _FresnelBias: 0.07
+    - _FresnelBias: 0.277
     - _FresnelPower: 7.77
     - _GlossMapScale: 1
     - _Glossiness: 0.98

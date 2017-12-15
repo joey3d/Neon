@@ -146,7 +146,7 @@ Material:
     - _DistortionBlend: 0.5
     - _DistortionEnabled: 0
     - _DistortionStrength: 1
-    - _DstBlend: 1
+    - _DstBlend: 10
     - _EmissionEnabled: 0
     - _FlipbookMode: 0
     - _Gloss: 1
@@ -159,7 +159,7 @@ Material:
     - _MetalSwitch: 0
     - _Metallic: 0
     - _Metalness: 0
-    - _Mode: 4
+    - _Mode: 2
     - _NormalAmount: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
@@ -187,7 +187,7 @@ Material:
     - _ZWrite: 0
     m_Colors:
     - _CameraFadeParams: {r: 3, g: 0.14285715, b: 0, a: 0}
-    - _Color: {r: 1, g: 0.79878294, b: 0.5441177, a: 1}
+    - _Color: {r: 1, g: 0.6465517, b: 0.375, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _LightWrap_Color: {r: 1, g: 0.39310342, b: 0, a: 1}
     - _SoftParticleFadeParams: {r: 0, g: 0.2, b: 0, a: 0}
