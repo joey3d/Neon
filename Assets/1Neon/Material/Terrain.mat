@@ -83,11 +83,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Height1:
-        m_Texture: {fileID: 2800000, guid: 47a53cca797777f41ba3a46519713002, type: 3}
+        m_Texture: {fileID: 2800000, guid: dcd1e18c7aa4cbd4c851ecb924f3a804, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Height2:
-        m_Texture: {fileID: 2800000, guid: dcd1e18c7aa4cbd4c851ecb924f3a804, type: 3}
+        m_Texture: {fileID: 2800000, guid: 47a53cca797777f41ba3a46519713002, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Height3:
@@ -201,7 +201,7 @@ Material:
     - _MudTiling: 40
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Scale: 0.33
+    - _Scale: 0.34
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1

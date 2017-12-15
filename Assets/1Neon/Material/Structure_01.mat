@@ -76,7 +76,7 @@ Material:
     - _GreenSub: 0
     - _InflateGround: 1
     - _IntersectionPow: 0.03
-    - _IntersectionScale: 0.1
+    - _IntersectionScale: 0.3
     - _IntersectionThresholdMax: 1
     - _MaskMult: 1
     - _MaskPow: 1

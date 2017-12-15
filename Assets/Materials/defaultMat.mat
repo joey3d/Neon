@@ -8,7 +8,7 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: defaultMat
   m_Shader: {fileID: 4800000, guid: 0028366432aa15145818e57304494b4e, type: 3}
-  m_ShaderKeywords: _NORMALMAP
+  m_ShaderKeywords: _NORMALMAP _SNOWMODE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -76,7 +76,7 @@ Material:
     - _GreenSub: 0
     - _InflateGround: 0
     - _IntersectionPow: 0.1
-    - _IntersectionScale: 0.1
+    - _IntersectionScale: 0.3
     - _IntersectionThresholdMax: 1
     - _MaskMult: 1
     - _MaskPow: 1
@@ -86,8 +86,8 @@ Material:
     - _Parallax: 0.02
     - _RedAdd: 0
     - _SmoothnessTextureChannel: 0
-    - _SnowMode: 0
-    - _SnowMult: 3
+    - _SnowMode: 1
+    - _SnowMult: 1
     - _SnowPow: -5
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -98,4 +98,4 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _IntersectionColor: {r: 0.9338235, g: 0.9338235, b: 0.9338235, a: 1}
-    - _TargetNormal: {r: 10, g: 1000, b: 10, a: 10}
+    - _TargetNormal: {r: 0, g: 1000, b: 10, a: 100}
