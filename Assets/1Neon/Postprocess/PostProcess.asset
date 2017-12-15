@@ -100,9 +100,9 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       bloom:
-        intensity: 7
+        intensity: 1
         threshold: 1.5
-        softKnee: 0.9
+        softKnee: 1
         radius: 7
         antiFlicker: 1
       lensDirt:
@@ -120,7 +120,7 @@ MonoBehaviour:
         neutralWhiteLevel: 5.3
         neutralWhiteClip: 10
       basic:
-        postExposure: 0
+        postExposure: 0.5
         temperature: -5
         tint: 10
         hueShift: 2
