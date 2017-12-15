@@ -80,6 +80,7 @@ Material:
     - _Cutoff: 0.5
     - _Depth: 0.202
     - _DetailNormalMapScale: 1
+    - _DisplacementScale: 0.064
     - _DstBlend: 0
     - _EmissionScaleUI: 0
     - _Float3: 10

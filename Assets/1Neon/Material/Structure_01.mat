@@ -74,9 +74,9 @@ Material:
     - _Glossiness: 0.35
     - _GlossyReflections: 1
     - _GreenSub: 0
-    - _InflateGround: 0
+    - _InflateGround: 1
     - _IntersectionPow: 0.03
-    - _IntersectionScale: 0.5
+    - _IntersectionScale: 0.1
     - _IntersectionThresholdMax: 1
     - _MaskMult: 1
     - _MaskPow: 1
@@ -98,4 +98,4 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _IntersectionColor: {r: 0.8602941, g: 0.8602941, b: 0.8602941, a: 1}
-    - _TargetNormal: {r: 0, g: 1000, b: 0, a: 0}
+    - _TargetNormal: {r: 10, g: 1000, b: 10, a: 0}
