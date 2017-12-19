@@ -202,8 +202,8 @@ Shader "Shader Forge/Wall_01" {
                 indirectDiffuse += gi.indirect.diffuse;
                 float3 diffuse = (directDiffuse + indirectDiffuse) * diffuseColor;
 ////// Emissive:
-                float4 node_9675 = _Time;
-                float2 node_6124 = (i.uv0+node_9675.g*float2(0.1,0.02));
+                float4 node_7839 = _Time;
+                float2 node_6124 = (i.uv0+node_7839.g*float2(0.1,0.02));
                 float4 _Alpha2_var = tex2D(_Alpha2,TRANSFORM_TEX(node_6124, _Alpha2));
                 float4 _Alpha1_var = tex2D(_Alpha1,TRANSFORM_TEX(i.uv0, _Alpha1));
                 float3 emissive = (_node_4099.rgb*((_Alpha2_var.g*_Alpha1_var.r)*_Emmissive));
@@ -403,8 +403,8 @@ Shader "Shader Forge/Wall_01" {
                 UnityMetaInput o;
                 UNITY_INITIALIZE_OUTPUT( UnityMetaInput, o );
                 
-                float4 node_8063 = _Time;
-                float2 node_6124 = (i.uv0+node_8063.g*float2(0.1,0.02));
+                float4 node_9539 = _Time;
+                float2 node_6124 = (i.uv0+node_9539.g*float2(0.1,0.02));
                 float4 _Alpha2_var = tex2D(_Alpha2,TRANSFORM_TEX(node_6124, _Alpha2));
                 float4 _Alpha1_var = tex2D(_Alpha1,TRANSFORM_TEX(i.uv0, _Alpha1));
                 o.Emission = (_node_4099.rgb*((_Alpha2_var.g*_Alpha1_var.r)*_Emmissive));
