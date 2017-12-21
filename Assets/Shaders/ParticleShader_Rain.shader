@@ -1,7 +1,7 @@
 // Shader created with Shader Forge v1.38 
 // Shader Forge (c) Neat Corporation / Joachim Holmer - http://www.acegikmo.com/shaderforge/
 // Note: Manually altering this data may prevent you from opening it in Shader Forge
-/*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:3,spmd:1,trmd:1,grmd:0,uamb:True,mssp:True,bkdf:True,hqlp:True,rprd:True,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:2,bsrc:0,bdst:7,dpts:2,wrdp:False,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:True,qofs:0,qpre:3,rntp:2,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.164468,fgcg:0.2011424,fgcb:0.5735294,fgca:1,fgde:0.005,fgrn:-5000,fgrf:100000,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:2865,x:32719,y:32712,varname:node_2865,prsc:2|diff-8560-OUT,spec-6029-OUT,gloss-5552-OUT,normal-6495-RGB,transm-2243-OUT,amdfl-4296-OUT,alpha-3048-OUT,refract-3760-OUT;n:type:ShaderForge.SFN_Tex2d,id:7736,x:31193,y:32582,ptovrint:True,ptlb:Alpha,ptin:_MainTex,varname:_MainTex,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Multiply,id:3048,x:31738,y:33115,varname:node_3048,prsc:2|A-7736-R,B-3275-OUT,C-3806-A;n:type:ShaderForge.SFN_VertexColor,id:3806,x:31176,y:32863,varname:node_3806,prsc:2;n:type:ShaderForge.SFN_Vector1,id:6029,x:32065,y:32715,varname:node_6029,prsc:2,v1:0;n:type:ShaderForge.SFN_Color,id:9279,x:31425,y:32385,ptovrint:False,ptlb:Color,ptin:_Color,varname:_Color,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:1,c2:1,c3:1,c4:1;n:type:ShaderForge.SFN_Slider,id:3275,x:31092,y:33376,ptovrint:False,ptlb:Opacity,ptin:_Opacity,varname:_Opacity,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.3,max:1;n:type:ShaderForge.SFN_Tex2d,id:6495,x:31905,y:33348,ptovrint:False,ptlb:Normal,ptin:_Normal,varname:_Normal,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:3,isnm:True;n:type:ShaderForge.SFN_Vector1,id:7467,x:32409,y:32956,varname:node_7467,prsc:2,v1:1;n:type:ShaderForge.SFN_Multiply,id:8560,x:31742,y:32570,varname:node_8560,prsc:2|A-9279-RGB,B-3806-RGB;n:type:ShaderForge.SFN_Slider,id:4296,x:31516,y:32795,ptovrint:False,ptlb:AmbientLight,ptin:_AmbientLight,varname:_AmbientLight,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0,max:2;n:type:ShaderForge.SFN_Multiply,id:2243,x:31995,y:32888,varname:node_2243,prsc:2|A-5459-OUT,B-7736-A;n:type:ShaderForge.SFN_Vector1,id:5459,x:31759,y:32916,varname:node_5459,prsc:2,v1:3;n:type:ShaderForge.SFN_Multiply,id:3760,x:32331,y:33343,varname:node_3760,prsc:2|A-4484-OUT,B-8067-OUT;n:type:ShaderForge.SFN_Append,id:4484,x:32189,y:33116,varname:node_4484,prsc:2|A-6495-R,B-6495-G;n:type:ShaderForge.SFN_Slider,id:8067,x:31372,y:33615,ptovrint:False,ptlb:Refraction,ptin:_Refraction,varname:_Refraction,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.3,max:2;n:type:ShaderForge.SFN_Vector1,id:5552,x:32129,y:32779,varname:node_5552,prsc:2,v1:0.7;n:type:ShaderForge.SFN_Tex2d,id:7098,x:32199,y:33452,ptovrint:False,ptlb:node_7098,ptin:_node_7098,varname:_node_7098,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:b214d05bdead1b24f8cf2a5d347fd475,ntxv:0,isnm:False;proporder:7736-9279-3275-6495-4296-8067-7098;pass:END;sub:END;*/
+/*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:3,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:True,hqlp:True,rprd:True,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:2,bsrc:3,bdst:7,dpts:2,wrdp:False,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:True,qofs:0,qpre:3,rntp:2,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.4398789,fgcg:0.447906,fgcb:0.5294118,fgca:1,fgde:0.005,fgrn:-5000,fgrf:100000,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:2865,x:32719,y:32712,varname:node_2865,prsc:2|diff-8560-OUT,spec-6029-OUT,gloss-5552-OUT,normal-6495-RGB,transm-2243-OUT,amdfl-4296-OUT,alpha-3048-OUT;n:type:ShaderForge.SFN_Tex2d,id:7736,x:31193,y:32582,ptovrint:True,ptlb:Alpha,ptin:_MainTex,varname:_MainTex,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Multiply,id:3048,x:31738,y:33115,varname:node_3048,prsc:2|A-7736-R,B-3275-OUT,C-3806-A,D-9732-OUT;n:type:ShaderForge.SFN_VertexColor,id:3806,x:31176,y:32863,varname:node_3806,prsc:2;n:type:ShaderForge.SFN_Vector1,id:6029,x:32065,y:32715,varname:node_6029,prsc:2,v1:0;n:type:ShaderForge.SFN_Color,id:9279,x:31425,y:32385,ptovrint:False,ptlb:Color,ptin:_Color,varname:_Color,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:1,c2:1,c3:1,c4:1;n:type:ShaderForge.SFN_Slider,id:3275,x:31092,y:33376,ptovrint:False,ptlb:Opacity,ptin:_Opacity,varname:_Opacity,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.3,max:1;n:type:ShaderForge.SFN_Tex2d,id:6495,x:31905,y:33348,ptovrint:False,ptlb:Normal,ptin:_Normal,varname:_Normal,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:3,isnm:True;n:type:ShaderForge.SFN_Vector1,id:7467,x:32409,y:32956,varname:node_7467,prsc:2,v1:1;n:type:ShaderForge.SFN_Multiply,id:8560,x:31742,y:32570,varname:node_8560,prsc:2|A-9279-RGB,B-3806-RGB;n:type:ShaderForge.SFN_Slider,id:4296,x:31516,y:32795,ptovrint:False,ptlb:AmbientLight,ptin:_AmbientLight,varname:_AmbientLight,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0,max:2;n:type:ShaderForge.SFN_Multiply,id:2243,x:31995,y:32888,varname:node_2243,prsc:2|A-5459-OUT,B-7736-A;n:type:ShaderForge.SFN_Vector1,id:5459,x:31759,y:32916,varname:node_5459,prsc:2,v1:3;n:type:ShaderForge.SFN_Vector1,id:5552,x:32129,y:32779,varname:node_5552,prsc:2,v1:0;n:type:ShaderForge.SFN_DepthBlend,id:9732,x:31492,y:33328,varname:node_9732,prsc:2;proporder:7736-9279-3275-6495-4296;pass:END;sub:END;*/
 
 Shader "Shader Forge/Particle_Rain" {
     Properties {
@@ -10,8 +10,6 @@ Shader "Shader Forge/Particle_Rain" {
         _Opacity ("Opacity", Range(0, 1)) = 0.3
         _Normal ("Normal", 2D) = "bump" {}
         _AmbientLight ("AmbientLight", Range(0, 2)) = 0
-        _Refraction ("Refraction", Range(0, 2)) = 0.3
-        _node_7098 ("node_7098", 2D) = "white" {}
         [HideInInspector]_Cutoff ("Alpha cutoff", Range(0,1)) = 0.5
     }
     SubShader {
@@ -20,13 +18,12 @@ Shader "Shader Forge/Particle_Rain" {
             "Queue"="Transparent"
             "RenderType"="Transparent"
         }
-        GrabPass{ }
         Pass {
             Name "FORWARD"
             Tags {
                 "LightMode"="ForwardBase"
             }
-            Blend One OneMinusSrcAlpha
+            Blend SrcAlpha OneMinusSrcAlpha
             Cull Off
             ZWrite Off
             
@@ -47,13 +44,12 @@ Shader "Shader Forge/Particle_Rain" {
             #pragma multi_compile_fog
             #pragma only_renderers d3d9 d3d11 glcore gles 
             #pragma target 3.0
-            uniform sampler2D _GrabTexture;
+            uniform sampler2D _CameraDepthTexture;
             uniform sampler2D _MainTex; uniform float4 _MainTex_ST;
             uniform float4 _Color;
             uniform float _Opacity;
             uniform sampler2D _Normal; uniform float4 _Normal_ST;
             uniform float _AmbientLight;
-            uniform float _Refraction;
             struct VertexInput {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
@@ -114,8 +110,8 @@ Shader "Shader Forge/Particle_Rain" {
                 float3 normalLocal = _Normal_var.rgb;
                 float3 normalDirection = normalize(mul( normalLocal, tangentTransform )); // Perturbed normals
                 float3 viewReflectDirection = reflect( -viewDirection, normalDirection );
-                float2 sceneUVs = (i.projPos.xy / i.projPos.w) + (float2(_Normal_var.r,_Normal_var.g)*_Refraction);
-                float4 sceneColor = tex2D(_GrabTexture, sceneUVs);
+                float sceneZ = max(0,LinearEyeDepth (UNITY_SAMPLE_DEPTH(tex2Dproj(_CameraDepthTexture, UNITY_PROJ_COORD(i.projPos)))) - _ProjectionParams.g);
+                float partZ = max(0,i.projPos.z - _ProjectionParams.g);
                 float3 lightDirection = normalize(_WorldSpaceLightPos0.xyz);
                 float3 lightColor = _LightColor0.rgb;
                 float3 halfDirection = normalize(viewDirection+lightDirection);
@@ -125,8 +121,8 @@ Shader "Shader Forge/Particle_Rain" {
                 float Pi = 3.141592654;
                 float InvPi = 0.31830988618;
 ///////// Gloss:
-                float gloss = 0.7;
-                float perceptualRoughness = 1.0 - 0.7;
+                float gloss = 0.0;
+                float perceptualRoughness = 1.0 - 0.0;
                 float roughness = perceptualRoughness * perceptualRoughness;
                 float specPow = exp2( gloss * 10.0 + 1.0 );
 /////// GI Data:
@@ -220,8 +216,8 @@ Shader "Shader Forge/Particle_Rain" {
                 indirectDiffuse += gi.indirect.diffuse;
                 float3 diffuse = (directDiffuse + indirectDiffuse) * diffuseColor;
 /// Final Color:
-                float3 finalColor = diffuse * (_MainTex_var.r*_Opacity*i.vertexColor.a) + specular;
-                fixed4 finalRGBA = fixed4(lerp(sceneColor.rgb, finalColor,(_MainTex_var.r*_Opacity*i.vertexColor.a)),1);
+                float3 finalColor = diffuse + specular;
+                fixed4 finalRGBA = fixed4(finalColor,(_MainTex_var.r*_Opacity*i.vertexColor.a*saturate((sceneZ-partZ))));
                 UNITY_APPLY_FOG(i.fogCoord, finalRGBA);
                 return finalRGBA;
             }
@@ -254,12 +250,11 @@ Shader "Shader Forge/Particle_Rain" {
             #pragma multi_compile_fog
             #pragma only_renderers d3d9 d3d11 glcore gles 
             #pragma target 3.0
-            uniform sampler2D _GrabTexture;
+            uniform sampler2D _CameraDepthTexture;
             uniform sampler2D _MainTex; uniform float4 _MainTex_ST;
             uniform float4 _Color;
             uniform float _Opacity;
             uniform sampler2D _Normal; uniform float4 _Normal_ST;
-            uniform float _Refraction;
             struct VertexInput {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
@@ -311,8 +306,8 @@ Shader "Shader Forge/Particle_Rain" {
                 float3 _Normal_var = UnpackNormal(tex2D(_Normal,TRANSFORM_TEX(i.uv0, _Normal)));
                 float3 normalLocal = _Normal_var.rgb;
                 float3 normalDirection = normalize(mul( normalLocal, tangentTransform )); // Perturbed normals
-                float2 sceneUVs = (i.projPos.xy / i.projPos.w) + (float2(_Normal_var.r,_Normal_var.g)*_Refraction);
-                float4 sceneColor = tex2D(_GrabTexture, sceneUVs);
+                float sceneZ = max(0,LinearEyeDepth (UNITY_SAMPLE_DEPTH(tex2Dproj(_CameraDepthTexture, UNITY_PROJ_COORD(i.projPos)))) - _ProjectionParams.g);
+                float partZ = max(0,i.projPos.z - _ProjectionParams.g);
                 float3 lightDirection = normalize(lerp(_WorldSpaceLightPos0.xyz, _WorldSpaceLightPos0.xyz - i.posWorld.xyz,_WorldSpaceLightPos0.w));
                 float3 lightColor = _LightColor0.rgb;
                 float3 halfDirection = normalize(viewDirection+lightDirection);
@@ -322,8 +317,8 @@ Shader "Shader Forge/Particle_Rain" {
                 float Pi = 3.141592654;
                 float InvPi = 0.31830988618;
 ///////// Gloss:
-                float gloss = 0.7;
-                float perceptualRoughness = 1.0 - 0.7;
+                float gloss = 0.0;
+                float perceptualRoughness = 1.0 - 0.0;
                 float roughness = perceptualRoughness * perceptualRoughness;
                 float specPow = exp2( gloss * 10.0 + 1.0 );
 ////// Specular:
@@ -364,8 +359,8 @@ Shader "Shader Forge/Particle_Rain" {
                 float3 directDiffuse = ((forwardLight+backLight) + ((1 +(fd90 - 1)*nlPow5) * (1 + (fd90 - 1)*nvPow5) * NdotL)) * attenColor;
                 float3 diffuse = directDiffuse * diffuseColor;
 /// Final Color:
-                float3 finalColor = diffuse * (_MainTex_var.r*_Opacity*i.vertexColor.a) + specular;
-                fixed4 finalRGBA = fixed4(finalColor,0);
+                float3 finalColor = diffuse + specular;
+                fixed4 finalRGBA = fixed4(finalColor * (_MainTex_var.r*_Opacity*i.vertexColor.a*saturate((sceneZ-partZ))),0);
                 UNITY_APPLY_FOG(i.fogCoord, finalRGBA);
                 return finalRGBA;
             }
@@ -487,7 +482,7 @@ Shader "Shader Forge/Particle_Rain" {
                 float specularMonochrome;
                 float3 specColor;
                 diffColor = DiffuseAndSpecularFromMetallic( diffColor, 0.0, specColor, specularMonochrome );
-                float roughness = 1.0 - 0.7;
+                float roughness = 1.0 - 0.0;
                 o.Albedo = diffColor + specColor * roughness * roughness * 0.5;
                 
                 return UnityMetaFragment( o );
