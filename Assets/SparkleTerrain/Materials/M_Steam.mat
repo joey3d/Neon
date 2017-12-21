@@ -88,7 +88,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 269797ac60abecc42837f1986f9cd9f0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
@@ -140,7 +140,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AmbientLight: 0.893
+    - _AmbientLight: 0
     - _BlendOp: 0
     - _BumpScale: 1
     - _CameraFadingEnabled: 0
@@ -169,7 +169,7 @@ Material:
     - _Mode: 2
     - _NormalAmount: 1
     - _OcclusionStrength: 1
-    - _Opacity: 0.5
+    - _Opacity: 1
     - _Parallax: 0.02
     - _Refraction: 0.3
     - _ReliefDepth: 1
@@ -196,7 +196,7 @@ Material:
     - _ZWrite: 0
     m_Colors:
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
-    - _Color: {r: 0.16911763, g: 0.16911763, b: 0.16911763, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _LightWrap_Color: {r: 1, g: 0.39310342, b: 0, a: 1}
     - _SoftParticleFadeParams: {r: 1, g: 1, b: 0, a: 0}
