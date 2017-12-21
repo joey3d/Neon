@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 8900000, guid: 3ee1b806dadf1c34887153b509ba0342, type: 3}
   m_Sun: {fileID: 2017310732}
-  m_IndirectSpecularColor: {r: 0.3927797, g: 0.3153088, b: 0.33731225, a: 1}
+  m_IndirectSpecularColor: {r: 0.43566936, g: 0.3397906, b: 0.28984466, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 112000002, guid: 7aeec2095a63aa0438d3d87f39601408,
+  m_LightingDataAsset: {fileID: 112000002, guid: d79821b03d2a6e344b0aadf7b129c9fe,
     type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
