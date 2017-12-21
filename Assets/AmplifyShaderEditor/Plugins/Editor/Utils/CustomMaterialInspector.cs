@@ -47,7 +47,7 @@ internal class ASEMaterialInspector : ShaderGUI
 			m_initialized = true;
 		}
 
-		if( Event.current.type == EventType.repaint &&
+		if( Event.current.type == EventType.Repaint &&
 			mat.HasProperty( IOUtils.DefaultASEDirtyCheckId ) &&
 			mat.GetInt( IOUtils.DefaultASEDirtyCheckId ) == 1 )
 		{
