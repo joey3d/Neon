@@ -249,7 +249,7 @@ namespace AmplifyShaderEditor
 		{
 			if ( m_debugGrid )
 			{
-				Handles.CircleHandleCap( 0, drawInfo.InvertedZoom * ( new Vector3( drawInfo.CameraOffset.x, drawInfo.CameraOffset.y, 0f ) ), Quaternion.identity, 5,EventType.layout );
+				Handles.CircleHandleCap( 0, drawInfo.InvertedZoom * ( new Vector3( drawInfo.CameraOffset.x, drawInfo.CameraOffset.y, 0f ) ), Quaternion.identity, 5,EventType.Layout );
 				for ( int x = -( int ) GRID_AREA_X; x < GRID_AREA_X; x += ( int ) GRID_SIZE_X )
 				{
 					Handles.DrawLine( drawInfo.InvertedZoom * ( new Vector3( x + drawInfo.CameraOffset.x, drawInfo.CameraOffset.y - GRID_AREA_Y, 0 ) ), drawInfo.InvertedZoom * ( new Vector3( drawInfo.CameraOffset.x + x, drawInfo.CameraOffset.y + GRID_AREA_Y, 0 ) ) );
