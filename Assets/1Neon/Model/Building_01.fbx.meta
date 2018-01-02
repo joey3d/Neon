@@ -14,6 +14,11 @@ ModelImporter:
     100012: pCube270
     100014: pCube289
     100016: pCube314
+    100018: pCube2065
+    100020: pCube2068
+    100022: pCube2070
+    100024: pCube2072
+    100026: pPlane280
     400000: //RootNode
     400002: pCube225
     400004: pCube242
@@ -23,6 +28,11 @@ ModelImporter:
     400012: pCube270
     400014: pCube289
     400016: pCube314
+    400018: pCube2065
+    400020: pCube2068
+    400022: pCube2070
+    400024: pCube2072
+    400026: pPlane280
     2300000: pCube225
     2300002: pCube242
     2300004: pCube243
@@ -31,6 +41,11 @@ ModelImporter:
     2300010: pCube270
     2300012: pCube289
     2300014: pCube314
+    2300016: pCube2065
+    2300018: pCube2068
+    2300020: pCube2070
+    2300022: pCube2072
+    2300024: pPlane280
     3300000: pCube225
     3300002: pCube242
     3300004: pCube243
@@ -39,6 +54,11 @@ ModelImporter:
     3300010: pCube270
     3300012: pCube289
     3300014: pCube314
+    3300016: pCube2065
+    3300018: pCube2068
+    3300020: pCube2070
+    3300022: pCube2072
+    3300024: pPlane280
     4300000: pCube225
     4300002: pCube242
     4300004: pCube243
@@ -47,6 +67,11 @@ ModelImporter:
     4300010: pCube270
     4300012: pCube289
     4300014: pCube314
+    4300016: pCube2065
+    4300018: pCube2068
+    4300020: pCube2070
+    4300022: pCube2072
+    4300024: pPlane280
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -95,6 +120,8 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
