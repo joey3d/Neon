@@ -9,7 +9,7 @@ Material:
   m_Name: Neon Sign 1
   m_Shader: {fileID: 4800000, guid: dc5e3df2bcf622e4abeacbee2fb58cee, type: 3}
   m_ShaderKeywords: 
-  m_LightmapFlags: 4
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
