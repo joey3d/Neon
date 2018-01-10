@@ -73,6 +73,7 @@ ModelImporter:
     100130: mixamorig:Spine1
     100132: mixamorig:Spine2
     100134: polySurface290
+    100136: default1
     400000: default
     400002: //RootNode
     400004: mixamorig:Head
@@ -141,11 +142,15 @@ ModelImporter:
     400130: mixamorig:Spine1
     400132: mixamorig:Spine2
     400134: polySurface290
+    400136: default1
     2100000: No Name
     2300000: default
+    2300002: default1
     3300000: default
+    3300002: default1
     4300000: default
     4300002: polySurface290
+    4300004: default1
     7400000: Flying_01
     9500000: //RootNode
     13700000: polySurface290
@@ -187,7 +192,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0

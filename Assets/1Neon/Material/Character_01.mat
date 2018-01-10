@@ -39,7 +39,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _E_Intensity: 300
+    - _E_Intensity: 500
     - __dirty: 0
     m_Colors:
     - _E_Color: {r: 0, g: 0.46206903, b: 1, a: 0}
