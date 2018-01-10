@@ -1,11 +1,12 @@
 fileFormatVersion: 2
 guid: dc5e3df2bcf622e4abeacbee2fb58cee
-timeCreated: 1513665326
+timeCreated: 1515215859
 licenseType: Free
 ShaderImporter:
   externalObjects: {}
   defaultTextures:
   - _Sign: {fileID: 2800000, guid: f26881eee1c52984a9f0dc327955cc75, type: 3}
+  - _NeonSigns: {fileID: 2800000, guid: 7eff04d3da9051741948c20281f7aab6, type: 3}
   userData: 
   assetBundleName: 
   assetBundleVariant: 

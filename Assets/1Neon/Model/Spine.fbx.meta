@@ -1,0 +1,407 @@
+fileFormatVersion: 2
+guid: 96ff1d9dfa90d1f4ea0b5e678572e8ad
+timeCreated: 1515269342
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Disc_L01
+    100002: Disc_L02
+    100004: Disc_L03
+    100006: Disc_L04
+    100008: Disc_L05
+    100010: Disc_T07
+    100012: Disc_T08
+    100014: Disc_T09
+    100016: Disc_T10
+    100018: Disc_T11
+    100020: Disc_T12
+    100022: Pedicle Screw 1
+    100024: Pedicle Screw 2
+    100026: Pedicle Screw 2.001
+    100028: PhysCamera002.Target
+    100030: Rod
+    100032: Set Screw 2
+    100034: //RootNode
+    100036: Spot001.Target
+    100038: Vertebrae_L01
+    100040: Vertebrae_L02
+    100042: Vertebrae_L03
+    100044: Vertebrae_L04
+    100046: Vertebrae_L05
+    100048: Vertebrae_T08
+    100050: Vertebrae_T09
+    100052: Vertebrae_T10
+    100054: Vertebrae_T11
+    100056: Vertebrae_T12
+    400000: Disc_L01
+    400002: Disc_L02
+    400004: Disc_L03
+    400006: Disc_L04
+    400008: Disc_L05
+    400010: Disc_T07
+    400012: Disc_T08
+    400014: Disc_T09
+    400016: Disc_T10
+    400018: Disc_T11
+    400020: Disc_T12
+    400022: Pedicle Screw 1
+    400024: Pedicle Screw 2
+    400026: Pedicle Screw 2.001
+    400028: PhysCamera002.Target
+    400030: Rod
+    400032: Set Screw 2
+    400034: //RootNode
+    400036: Spot001.Target
+    400038: Vertebrae_L01
+    400040: Vertebrae_L02
+    400042: Vertebrae_L03
+    400044: Vertebrae_L04
+    400046: Vertebrae_L05
+    400048: Vertebrae_T08
+    400050: Vertebrae_T09
+    400052: Vertebrae_T10
+    400054: Vertebrae_T11
+    400056: Vertebrae_T12
+    2100000: No Name
+    2300000: Disc_L01
+    2300002: Disc_L02
+    2300004: Disc_L03
+    2300006: Disc_L04
+    2300008: Disc_L05
+    2300010: Disc_T07
+    2300012: Disc_T08
+    2300014: Disc_T09
+    2300016: Disc_T10
+    2300018: Disc_T11
+    2300020: Disc_T12
+    2300022: Pedicle Screw 1
+    2300024: Pedicle Screw 2
+    2300026: Pedicle Screw 2.001
+    2300028: Rod
+    2300030: Set Screw 2
+    2300032: Vertebrae_L01
+    2300034: Vertebrae_L02
+    2300036: Vertebrae_L03
+    2300038: Vertebrae_L04
+    2300040: Vertebrae_L05
+    2300042: Vertebrae_T08
+    2300044: Vertebrae_T09
+    2300046: Vertebrae_T10
+    2300048: Vertebrae_T11
+    2300050: Vertebrae_T12
+    3300000: Disc_L01
+    3300002: Disc_L02
+    3300004: Disc_L03
+    3300006: Disc_L04
+    3300008: Disc_L05
+    3300010: Disc_T07
+    3300012: Disc_T08
+    3300014: Disc_T09
+    3300016: Disc_T10
+    3300018: Disc_T11
+    3300020: Disc_T12
+    3300022: Pedicle Screw 1
+    3300024: Pedicle Screw 2
+    3300026: Pedicle Screw 2.001
+    3300028: Rod
+    3300030: Set Screw 2
+    3300032: Vertebrae_L01
+    3300034: Vertebrae_L02
+    3300036: Vertebrae_L03
+    3300038: Vertebrae_L04
+    3300040: Vertebrae_L05
+    3300042: Vertebrae_T08
+    3300044: Vertebrae_T09
+    3300046: Vertebrae_T10
+    3300048: Vertebrae_T11
+    3300050: Vertebrae_T12
+    4300000: Pedicle Screw 2.001
+    4300002: Rod
+    4300004: Pedicle Screw 2
+    4300006: Pedicle Screw 1
+    4300008: Set Screw 2
+    4300010: Vertebrae_L05
+    4300012: Vertebrae_L04
+    4300014: Vertebrae_L03
+    4300016: Vertebrae_L02
+    4300018: Vertebrae_L01
+    4300020: Vertebrae_T12
+    4300022: Vertebrae_T11
+    4300024: Vertebrae_T10
+    4300026: Vertebrae_T09
+    4300028: Vertebrae_T08
+    4300030: Disc_L05
+    4300032: Disc_L04
+    4300034: Disc_L03
+    4300036: Disc_L02
+    4300038: Disc_L01
+    4300040: Disc_T12
+    4300042: Disc_T11
+    4300044: Disc_T10
+    4300046: Disc_T09
+    4300048: Disc_T08
+    4300050: Disc_T07
+    7400000: Pedicle Screw 2.001|Disc_L04|Take 001|BaseLayer
+    7400002: Pedicle Screw 2.001|Disc_T07|Take 001|BaseLayer
+    7400004: Pedicle Screw 2.001|Disc_T08|Take 001|BaseLayer
+    7400006: Pedicle Screw 2.001|Disc_T09|Take 001|BaseLayer
+    7400008: Pedicle Screw 2.001|Disc_T11|Take 001|BaseLayer
+    7400010: Pedicle Screw 2.001|Pedicle Screw 1|Take 001|BaseLayer
+    7400012: Pedicle Screw 2.001|Pedicle Screw 2|Take 001|BaseLayer
+    7400014: Pedicle Screw 2.001|Rod|Take 001|BaseLayer
+    7400016: Pedicle Screw 2.001|Set Screw 1|Take 001|BaseLayer
+    7400018: Pedicle Screw 2.001|Spot001|Take 001|BaseLayer
+    7400020: Pedicle Screw 2.001|Vertebrae_L01|Take 001|BaseLayer
+    7400022: Pedicle Screw 2.001|Vertebrae_L04|Take 001|BaseLayer
+    7400024: Pedicle Screw 2.001|Vertebrae_L05|Take 001|BaseLayer
+    7400026: Pedicle Screw 2.001|Vertebrae_T12|Take 001|BaseLayer
+    7400028: Rod|Disc_L04|Take 001|BaseLayer
+    7400030: Rod|Disc_T07|Take 001|BaseLayer
+    7400032: Rod|Disc_T08|Take 001|BaseLayer
+    7400034: Rod|Disc_T09|Take 001|BaseLayer
+    7400036: Rod|Disc_T11|Take 001|BaseLayer
+    7400038: Rod|Pedicle Screw 1|Take 001|BaseLayer
+    7400040: Rod|Pedicle Screw 2|Take 001|BaseLayer
+    7400042: Rod|Rod|Take 001|BaseLayer
+    7400044: Rod|Set Screw 1|Take 001|BaseLayer
+    7400046: Rod|Spot001|Take 001|BaseLayer
+    7400048: Rod|Vertebrae_L01|Take 001|BaseLayer
+    7400050: Rod|Vertebrae_L04|Take 001|BaseLayer
+    7400052: Rod|Vertebrae_L05|Take 001|BaseLayer
+    7400054: Rod|Vertebrae_T12|Take 001|BaseLayer
+    7400056: Pedicle Screw 2|Disc_L04|Take 001|BaseLayer
+    7400058: Pedicle Screw 2|Disc_T07|Take 001|BaseLayer
+    7400060: Pedicle Screw 2|Disc_T08|Take 001|BaseLayer
+    7400062: Pedicle Screw 2|Disc_T09|Take 001|BaseLayer
+    7400064: Pedicle Screw 2|Disc_T11|Take 001|BaseLayer
+    7400066: Pedicle Screw 2|Pedicle Screw 1|Take 001|BaseLayer
+    7400068: Pedicle Screw 2|Pedicle Screw 2|Take 001|BaseLayer
+    7400070: Pedicle Screw 2|Rod|Take 001|BaseLayer
+    7400072: Pedicle Screw 2|Set Screw 1|Take 001|BaseLayer
+    7400074: Pedicle Screw 2|Spot001|Take 001|BaseLayer
+    7400076: Pedicle Screw 2|Vertebrae_L01|Take 001|BaseLayer
+    7400078: Pedicle Screw 2|Vertebrae_L04|Take 001|BaseLayer
+    7400080: Pedicle Screw 2|Vertebrae_L05|Take 001|BaseLayer
+    7400082: Pedicle Screw 2|Vertebrae_T12|Take 001|BaseLayer
+    7400084: Pedicle Screw 1|Disc_L04|Take 001|BaseLayer
+    7400086: Pedicle Screw 1|Disc_T07|Take 001|BaseLayer
+    7400088: Pedicle Screw 1|Disc_T08|Take 001|BaseLayer
+    7400090: Pedicle Screw 1|Disc_T09|Take 001|BaseLayer
+    7400092: Pedicle Screw 1|Disc_T11|Take 001|BaseLayer
+    7400094: Pedicle Screw 1|Pedicle Screw 1|Take 001|BaseLayer
+    7400096: Pedicle Screw 1|Pedicle Screw 2|Take 001|BaseLayer
+    7400098: Pedicle Screw 1|Rod|Take 001|BaseLayer
+    7400100: Pedicle Screw 1|Set Screw 1|Take 001|BaseLayer
+    7400102: Pedicle Screw 1|Spot001|Take 001|BaseLayer
+    7400104: Pedicle Screw 1|Vertebrae_L01|Take 001|BaseLayer
+    7400106: Pedicle Screw 1|Vertebrae_L04|Take 001|BaseLayer
+    7400108: Pedicle Screw 1|Vertebrae_L05|Take 001|BaseLayer
+    7400110: Pedicle Screw 1|Vertebrae_T12|Take 001|BaseLayer
+    7400112: Vertebrae_L05|Disc_L04|Take 001|BaseLayer
+    7400114: Vertebrae_L05|Disc_T07|Take 001|BaseLayer
+    7400116: Vertebrae_L05|Disc_T08|Take 001|BaseLayer
+    7400118: Vertebrae_L05|Disc_T09|Take 001|BaseLayer
+    7400120: Vertebrae_L05|Disc_T11|Take 001|BaseLayer
+    7400122: Vertebrae_L05|Pedicle Screw 1|Take 001|BaseLayer
+    7400124: Vertebrae_L05|Pedicle Screw 2|Take 001|BaseLayer
+    7400126: Vertebrae_L05|Rod|Take 001|BaseLayer
+    7400128: Vertebrae_L05|Set Screw 1|Take 001|BaseLayer
+    7400130: Vertebrae_L05|Spot001|Take 001|BaseLayer
+    7400132: Vertebrae_L05|Vertebrae_L01|Take 001|BaseLayer
+    7400134: Vertebrae_L05|Vertebrae_L04|Take 001|BaseLayer
+    7400136: Vertebrae_L05|Vertebrae_L05|Take 001|BaseLayer
+    7400138: Vertebrae_L05|Vertebrae_T12|Take 001|BaseLayer
+    7400140: Vertebrae_L04|Disc_L04|Take 001|BaseLayer
+    7400142: Vertebrae_L04|Disc_T07|Take 001|BaseLayer
+    7400144: Vertebrae_L04|Disc_T08|Take 001|BaseLayer
+    7400146: Vertebrae_L04|Disc_T09|Take 001|BaseLayer
+    7400148: Vertebrae_L04|Disc_T11|Take 001|BaseLayer
+    7400150: Vertebrae_L04|Pedicle Screw 1|Take 001|BaseLayer
+    7400152: Vertebrae_L04|Pedicle Screw 2|Take 001|BaseLayer
+    7400154: Vertebrae_L04|Rod|Take 001|BaseLayer
+    7400156: Vertebrae_L04|Set Screw 1|Take 001|BaseLayer
+    7400158: Vertebrae_L04|Spot001|Take 001|BaseLayer
+    7400160: Vertebrae_L04|Vertebrae_L01|Take 001|BaseLayer
+    7400162: Vertebrae_L04|Vertebrae_L04|Take 001|BaseLayer
+    7400164: Vertebrae_L04|Vertebrae_L05|Take 001|BaseLayer
+    7400166: Vertebrae_L04|Vertebrae_T12|Take 001|BaseLayer
+    7400168: Vertebrae_L01|Disc_L04|Take 001|BaseLayer
+    7400170: Vertebrae_L01|Disc_T07|Take 001|BaseLayer
+    7400172: Vertebrae_L01|Disc_T08|Take 001|BaseLayer
+    7400174: Vertebrae_L01|Disc_T09|Take 001|BaseLayer
+    7400176: Vertebrae_L01|Disc_T11|Take 001|BaseLayer
+    7400178: Vertebrae_L01|Pedicle Screw 1|Take 001|BaseLayer
+    7400180: Vertebrae_L01|Pedicle Screw 2|Take 001|BaseLayer
+    7400182: Vertebrae_L01|Rod|Take 001|BaseLayer
+    7400184: Vertebrae_L01|Set Screw 1|Take 001|BaseLayer
+    7400186: Vertebrae_L01|Spot001|Take 001|BaseLayer
+    7400188: Vertebrae_L01|Vertebrae_L01|Take 001|BaseLayer
+    7400190: Vertebrae_L01|Vertebrae_L04|Take 001|BaseLayer
+    7400192: Vertebrae_L01|Vertebrae_L05|Take 001|BaseLayer
+    7400194: Vertebrae_L01|Vertebrae_T12|Take 001|BaseLayer
+    7400196: Vertebrae_T12|Disc_L04|Take 001|BaseLayer
+    7400198: Vertebrae_T12|Disc_T07|Take 001|BaseLayer
+    7400200: Vertebrae_T12|Disc_T08|Take 001|BaseLayer
+    7400202: Vertebrae_T12|Disc_T09|Take 001|BaseLayer
+    7400204: Vertebrae_T12|Disc_T11|Take 001|BaseLayer
+    7400206: Vertebrae_T12|Pedicle Screw 1|Take 001|BaseLayer
+    7400208: Vertebrae_T12|Pedicle Screw 2|Take 001|BaseLayer
+    7400210: Vertebrae_T12|Rod|Take 001|BaseLayer
+    7400212: Vertebrae_T12|Set Screw 1|Take 001|BaseLayer
+    7400214: Vertebrae_T12|Spot001|Take 001|BaseLayer
+    7400216: Vertebrae_T12|Vertebrae_L01|Take 001|BaseLayer
+    7400218: Vertebrae_T12|Vertebrae_L04|Take 001|BaseLayer
+    7400220: Vertebrae_T12|Vertebrae_L05|Take 001|BaseLayer
+    7400222: Vertebrae_T12|Vertebrae_T12|Take 001|BaseLayer
+    7400224: Disc_L04|Disc_L04|Take 001|BaseLayer
+    7400226: Disc_L04|Disc_T07|Take 001|BaseLayer
+    7400228: Disc_L04|Disc_T08|Take 001|BaseLayer
+    7400230: Disc_L04|Disc_T09|Take 001|BaseLayer
+    7400232: Disc_L04|Disc_T11|Take 001|BaseLayer
+    7400234: Disc_L04|Pedicle Screw 1|Take 001|BaseLayer
+    7400236: Disc_L04|Pedicle Screw 2|Take 001|BaseLayer
+    7400238: Disc_L04|Rod|Take 001|BaseLayer
+    7400240: Disc_L04|Set Screw 1|Take 001|BaseLayer
+    7400242: Disc_L04|Spot001|Take 001|BaseLayer
+    7400244: Disc_L04|Vertebrae_L01|Take 001|BaseLayer
+    7400246: Disc_L04|Vertebrae_L04|Take 001|BaseLayer
+    7400248: Disc_L04|Vertebrae_L05|Take 001|BaseLayer
+    7400250: Disc_L04|Vertebrae_T12|Take 001|BaseLayer
+    7400252: Disc_T11|Disc_L04|Take 001|BaseLayer
+    7400254: Disc_T11|Disc_T07|Take 001|BaseLayer
+    7400256: Disc_T11|Disc_T08|Take 001|BaseLayer
+    7400258: Disc_T11|Disc_T09|Take 001|BaseLayer
+    7400260: Disc_T11|Disc_T11|Take 001|BaseLayer
+    7400262: Disc_T11|Pedicle Screw 1|Take 001|BaseLayer
+    7400264: Disc_T11|Pedicle Screw 2|Take 001|BaseLayer
+    7400266: Disc_T11|Rod|Take 001|BaseLayer
+    7400268: Disc_T11|Set Screw 1|Take 001|BaseLayer
+    7400270: Disc_T11|Spot001|Take 001|BaseLayer
+    7400272: Disc_T11|Vertebrae_L01|Take 001|BaseLayer
+    7400274: Disc_T11|Vertebrae_L04|Take 001|BaseLayer
+    7400276: Disc_T11|Vertebrae_L05|Take 001|BaseLayer
+    7400278: Disc_T11|Vertebrae_T12|Take 001|BaseLayer
+    7400280: Disc_T09|Disc_L04|Take 001|BaseLayer
+    7400282: Disc_T09|Disc_T07|Take 001|BaseLayer
+    7400284: Disc_T09|Disc_T08|Take 001|BaseLayer
+    7400286: Disc_T09|Disc_T09|Take 001|BaseLayer
+    7400288: Disc_T09|Disc_T11|Take 001|BaseLayer
+    7400290: Disc_T09|Pedicle Screw 1|Take 001|BaseLayer
+    7400292: Disc_T09|Pedicle Screw 2|Take 001|BaseLayer
+    7400294: Disc_T09|Rod|Take 001|BaseLayer
+    7400296: Disc_T09|Set Screw 1|Take 001|BaseLayer
+    7400298: Disc_T09|Spot001|Take 001|BaseLayer
+    7400300: Disc_T09|Vertebrae_L01|Take 001|BaseLayer
+    7400302: Disc_T09|Vertebrae_L04|Take 001|BaseLayer
+    7400304: Disc_T09|Vertebrae_L05|Take 001|BaseLayer
+    7400306: Disc_T09|Vertebrae_T12|Take 001|BaseLayer
+    7400308: Disc_T08|Disc_L04|Take 001|BaseLayer
+    7400310: Disc_T08|Disc_T07|Take 001|BaseLayer
+    7400312: Disc_T08|Disc_T08|Take 001|BaseLayer
+    7400314: Disc_T08|Disc_T09|Take 001|BaseLayer
+    7400316: Disc_T08|Disc_T11|Take 001|BaseLayer
+    7400318: Disc_T08|Pedicle Screw 1|Take 001|BaseLayer
+    7400320: Disc_T08|Pedicle Screw 2|Take 001|BaseLayer
+    7400322: Disc_T08|Rod|Take 001|BaseLayer
+    7400324: Disc_T08|Set Screw 1|Take 001|BaseLayer
+    7400326: Disc_T08|Spot001|Take 001|BaseLayer
+    7400328: Disc_T08|Vertebrae_L01|Take 001|BaseLayer
+    7400330: Disc_T08|Vertebrae_L04|Take 001|BaseLayer
+    7400332: Disc_T08|Vertebrae_L05|Take 001|BaseLayer
+    7400334: Disc_T08|Vertebrae_T12|Take 001|BaseLayer
+    7400336: Disc_T07|Disc_L04|Take 001|BaseLayer
+    7400338: Disc_T07|Disc_T07|Take 001|BaseLayer
+    7400340: Disc_T07|Disc_T08|Take 001|BaseLayer
+    7400342: Disc_T07|Disc_T09|Take 001|BaseLayer
+    7400344: Disc_T07|Disc_T11|Take 001|BaseLayer
+    7400346: Disc_T07|Pedicle Screw 1|Take 001|BaseLayer
+    7400348: Disc_T07|Pedicle Screw 2|Take 001|BaseLayer
+    7400350: Disc_T07|Rod|Take 001|BaseLayer
+    7400352: Disc_T07|Set Screw 1|Take 001|BaseLayer
+    7400354: Disc_T07|Spot001|Take 001|BaseLayer
+    7400356: Disc_T07|Vertebrae_L01|Take 001|BaseLayer
+    7400358: Disc_T07|Vertebrae_L04|Take 001|BaseLayer
+    7400360: Disc_T07|Vertebrae_L05|Take 001|BaseLayer
+    7400362: Disc_T07|Vertebrae_T12|Take 001|BaseLayer
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

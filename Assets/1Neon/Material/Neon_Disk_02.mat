@@ -7,9 +7,9 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Neon_Disk_02
-  m_Shader: {fileID: 4800000, guid: 55cb5968427ff4e40820f562ea0d3fd8, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 1
+  m_Shader: {fileID: 4800000, guid: dc5e3df2bcf622e4abeacbee2fb58cee, type: 3}
+  m_ShaderKeywords: _ALPHA_ON
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -58,6 +58,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _NeonSigns:
+        m_Texture: {fileID: 2800000, guid: 3e5891c63bc5a6f4fbcef03bc4555d17, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -66,12 +70,18 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Sign:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _Alpha: 1
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Emissive: 85.7
+    - _EmissionIntensity: 3.13
+    - _Emissive: 100
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -82,11 +92,12 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _Texture: 0
     - _UVSec: 0
     - _ZWrite: 1
     - _node_1091: 2
     m_Colors:
-    - _Color: {r: 0, g: 0.5034485, b: 1, a: 1}
+    - _Color: {r: 0, g: 0.87586236, b: 1, a: 1}
     - _D: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _node_921: {r: 0.5, g: 0.5, b: 0.5, a: 1}
