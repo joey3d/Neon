@@ -1,7 +1,7 @@
 // Shader created with Shader Forge v1.38 
 // Shader Forge (c) Neat Corporation / Joachim Holmer - http://www.acegikmo.com/shaderforge/
 // Note: Manually altering this data may prevent you from opening it in Shader Forge
-/*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:0,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:True,hqlp:False,rprd:True,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:2,bsrc:3,bdst:7,dpts:2,wrdp:False,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:True,qofs:0,qpre:3,rntp:2,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.4398789,fgcg:0.447906,fgcb:0.5294118,fgca:1,fgde:0.005,fgrn:-5000,fgrf:100000,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:2865,x:32719,y:32712,varname:node_2865,prsc:2|emission-6511-OUT,alpha-8626-B;n:type:ShaderForge.SFN_Tex2d,id:6156,x:31138,y:33501,ptovrint:False,ptlb:E1,ptin:_E1,varname:_E1,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:94410b7253e18394b84a4772e6c61381,ntxv:0,isnm:False|UVIN-1805-UVOUT;n:type:ShaderForge.SFN_TexCoord,id:2152,x:30366,y:33237,varname:node_2152,prsc:2,uv:0,uaff:False;n:type:ShaderForge.SFN_Tex2d,id:2905,x:31136,y:33170,ptovrint:False,ptlb:E2,ptin:_E2,varname:_E2,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:94410b7253e18394b84a4772e6c61381,ntxv:0,isnm:False|UVIN-5122-UVOUT;n:type:ShaderForge.SFN_Panner,id:5122,x:30981,y:33170,varname:node_5122,prsc:2,spu:0,spv:-0.1|UVIN-2152-UVOUT;n:type:ShaderForge.SFN_Multiply,id:2440,x:31833,y:32985,varname:node_2440,prsc:2|A-8626-B,B-3602-OUT;n:type:ShaderForge.SFN_Tex2d,id:8626,x:31333,y:32895,ptovrint:False,ptlb:E3,ptin:_E3,varname:_E3,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:94410b7253e18394b84a4772e6c61381,ntxv:0,isnm:False|UVIN-4656-UVOUT;n:type:ShaderForge.SFN_Panner,id:4656,x:30998,y:32902,varname:node_4656,prsc:2,spu:0,spv:0.1|UVIN-2152-UVOUT;n:type:ShaderForge.SFN_Panner,id:1805,x:30963,y:33501,varname:node_1805,prsc:2,spu:0.1,spv:0|UVIN-2152-UVOUT;n:type:ShaderForge.SFN_Multiply,id:959,x:32328,y:32729,varname:node_959,prsc:2|A-3602-OUT,B-1091-OUT;n:type:ShaderForge.SFN_Slider,id:1091,x:32129,y:32909,ptovrint:False,ptlb:Emissive,ptin:_Emissive,varname:_Emissive,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0,max:100;n:type:ShaderForge.SFN_Multiply,id:3602,x:31757,y:33228,varname:node_3602,prsc:2|A-2905-G,B-6156-R;n:type:ShaderForge.SFN_Color,id:921,x:32328,y:32569,ptovrint:False,ptlb:Color,ptin:_Color,varname:_Color,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:0.1172414,c2:1,c3:0,c4:1;n:type:ShaderForge.SFN_Multiply,id:6511,x:32524,y:32729,varname:node_6511,prsc:2|A-921-RGB,B-959-OUT;proporder:6156-2905-8626-1091-921;pass:END;sub:END;*/
+/*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:0,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:True,hqlp:False,rprd:True,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:2,bsrc:3,bdst:7,dpts:2,wrdp:False,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:True,qofs:0,qpre:3,rntp:2,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.4398789,fgcg:0.447906,fgcb:0.5294118,fgca:1,fgde:0.005,fgrn:-5000,fgrf:100000,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:2865,x:32719,y:32712,varname:node_2865,prsc:2|emission-2945-OUT,alpha-8626-B;n:type:ShaderForge.SFN_Tex2d,id:6156,x:31138,y:33501,ptovrint:False,ptlb:E1,ptin:_E1,varname:_E1,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:94410b7253e18394b84a4772e6c61381,ntxv:0,isnm:False|UVIN-1805-UVOUT;n:type:ShaderForge.SFN_TexCoord,id:2152,x:30366,y:33237,varname:node_2152,prsc:2,uv:0,uaff:False;n:type:ShaderForge.SFN_Tex2d,id:2905,x:31136,y:33170,ptovrint:False,ptlb:E2,ptin:_E2,varname:_E2,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:94410b7253e18394b84a4772e6c61381,ntxv:0,isnm:False|UVIN-5122-UVOUT;n:type:ShaderForge.SFN_Panner,id:5122,x:30981,y:33170,varname:node_5122,prsc:2,spu:0,spv:-0.1|UVIN-2152-UVOUT;n:type:ShaderForge.SFN_Multiply,id:2440,x:32230,y:33114,varname:node_2440,prsc:2|A-8626-B,B-3602-OUT;n:type:ShaderForge.SFN_Tex2d,id:8626,x:31333,y:32895,ptovrint:False,ptlb:E3,ptin:_E3,varname:_E3,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:94410b7253e18394b84a4772e6c61381,ntxv:0,isnm:False|UVIN-4656-UVOUT;n:type:ShaderForge.SFN_Panner,id:4656,x:30998,y:32902,varname:node_4656,prsc:2,spu:0,spv:0.1|UVIN-2152-UVOUT;n:type:ShaderForge.SFN_Panner,id:1805,x:30963,y:33501,varname:node_1805,prsc:2,spu:0.1,spv:0|UVIN-2152-UVOUT;n:type:ShaderForge.SFN_Multiply,id:959,x:31826,y:32673,varname:node_959,prsc:2|A-9457-RGB,B-1091-OUT;n:type:ShaderForge.SFN_Slider,id:1091,x:31601,y:32854,ptovrint:False,ptlb:Emissive,ptin:_Emissive,varname:_Emissive,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0,max:100;n:type:ShaderForge.SFN_Multiply,id:3602,x:31757,y:33228,varname:node_3602,prsc:2|A-2905-G,B-6156-R;n:type:ShaderForge.SFN_Color,id:921,x:31781,y:32409,ptovrint:False,ptlb:Color,ptin:_Color,varname:_Color,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:0.1172414,c2:1,c3:0,c4:1;n:type:ShaderForge.SFN_Multiply,id:6511,x:32180,y:32422,varname:node_6511,prsc:2|A-921-RGB,B-959-OUT;n:type:ShaderForge.SFN_SwitchProperty,id:2945,x:32254,y:32748,ptovrint:False,ptlb:Signs,ptin:_Signs,varname:node_2945,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,on:False|A-6511-OUT,B-9457-RGB;n:type:ShaderForge.SFN_Tex2d,id:9457,x:31468,y:32498,ptovrint:False,ptlb:SignsTex,ptin:_SignsTex,varname:node_9457,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False;proporder:6156-2905-8626-1091-921-9457-2945;pass:END;sub:END;*/
 
 Shader "Shader Forge/Neon_Disk_01" {
     Properties {
@@ -10,6 +10,8 @@ Shader "Shader Forge/Neon_Disk_01" {
         _E3 ("E3", 2D) = "white" {}
         _Emissive ("Emissive", Range(0, 100)) = 0
         _Color ("Color", Color) = (0.1172414,1,0,1)
+        _SignsTex ("SignsTex", 2D) = "white" {}
+        [MaterialToggle] _Signs ("Signs", Float ) = 0
         [HideInInspector]_Cutoff ("Alpha cutoff", Range(0,1)) = 0.5
     }
     SubShader {
@@ -39,11 +41,11 @@ Shader "Shader Forge/Neon_Disk_01" {
             #pragma multi_compile_fog
             #pragma only_renderers d3d9 d3d11 glcore gles 
             #pragma target 3.0
-            uniform sampler2D _E1; uniform float4 _E1_ST;
-            uniform sampler2D _E2; uniform float4 _E2_ST;
             uniform sampler2D _E3; uniform float4 _E3_ST;
             uniform float _Emissive;
             uniform float4 _Color;
+            uniform fixed _Signs;
+            uniform sampler2D _SignsTex; uniform float4 _SignsTex_ST;
             struct VertexInput {
                 float4 vertex : POSITION;
                 float2 texcoord0 : TEXCOORD0;
@@ -65,15 +67,11 @@ Shader "Shader Forge/Neon_Disk_01" {
                 float faceSign = ( facing >= 0 ? 1 : -1 );
 ////// Lighting:
 ////// Emissive:
-                float4 node_2550 = _Time;
-                float2 node_5122 = (i.uv0+node_2550.g*float2(0,-0.1));
-                float4 _E2_var = tex2D(_E2,TRANSFORM_TEX(node_5122, _E2));
-                float2 node_1805 = (i.uv0+node_2550.g*float2(0.1,0));
-                float4 _E1_var = tex2D(_E1,TRANSFORM_TEX(node_1805, _E1));
-                float node_3602 = (_E2_var.g*_E1_var.r);
-                float3 emissive = (_Color.rgb*(node_3602*_Emissive));
+                float4 _SignsTex_var = tex2D(_SignsTex,TRANSFORM_TEX(i.uv0, _SignsTex));
+                float3 emissive = lerp( (_Color.rgb*(_SignsTex_var.rgb*_Emissive)), _SignsTex_var.rgb, _Signs );
                 float3 finalColor = emissive;
-                float2 node_4656 = (i.uv0+node_2550.g*float2(0,0.1));
+                float4 node_6328 = _Time;
+                float2 node_4656 = (i.uv0+node_6328.g*float2(0,0.1));
                 float4 _E3_var = tex2D(_E3,TRANSFORM_TEX(node_4656, _E3));
                 fixed4 finalRGBA = fixed4(finalColor,_E3_var.b);
                 UNITY_APPLY_FOG(i.fogCoord, finalRGBA);
@@ -143,10 +141,10 @@ Shader "Shader Forge/Neon_Disk_01" {
             #pragma multi_compile_fog
             #pragma only_renderers d3d9 d3d11 glcore gles 
             #pragma target 3.0
-            uniform sampler2D _E1; uniform float4 _E1_ST;
-            uniform sampler2D _E2; uniform float4 _E2_ST;
             uniform float _Emissive;
             uniform float4 _Color;
+            uniform fixed _Signs;
+            uniform sampler2D _SignsTex; uniform float4 _SignsTex_ST;
             struct VertexInput {
                 float4 vertex : POSITION;
                 float2 texcoord0 : TEXCOORD0;
@@ -169,13 +167,8 @@ Shader "Shader Forge/Neon_Disk_01" {
                 UnityMetaInput o;
                 UNITY_INITIALIZE_OUTPUT( UnityMetaInput, o );
                 
-                float4 node_5453 = _Time;
-                float2 node_5122 = (i.uv0+node_5453.g*float2(0,-0.1));
-                float4 _E2_var = tex2D(_E2,TRANSFORM_TEX(node_5122, _E2));
-                float2 node_1805 = (i.uv0+node_5453.g*float2(0.1,0));
-                float4 _E1_var = tex2D(_E1,TRANSFORM_TEX(node_1805, _E1));
-                float node_3602 = (_E2_var.g*_E1_var.r);
-                o.Emission = (_Color.rgb*(node_3602*_Emissive));
+                float4 _SignsTex_var = tex2D(_SignsTex,TRANSFORM_TEX(i.uv0, _SignsTex));
+                o.Emission = lerp( (_Color.rgb*(_SignsTex_var.rgb*_Emissive)), _SignsTex_var.rgb, _Signs );
                 
                 float3 diffColor = float3(0,0,0);
                 o.Albedo = diffColor;
