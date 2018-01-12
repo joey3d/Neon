@@ -1,7 +1,7 @@
 // Shader created with Shader Forge v1.38 
 // Shader Forge (c) Neat Corporation / Joachim Holmer - http://www.acegikmo.com/shaderforge/
 // Note: Manually altering this data may prevent you from opening it in Shader Forge
-/*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:3,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:True,hqlp:False,rprd:True,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:3,bdst:7,dpts:2,wrdp:False,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:True,qofs:0,qpre:3,rntp:2,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.2980392,fgcg:0.1960784,fgcb:0.1490196,fgca:1,fgde:0.005,fgrn:-5000,fgrf:20000,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:2865,x:32719,y:32712,varname:node_2865,prsc:2|diff-5261-OUT,spec-358-OUT,gloss-1813-OUT,normal-5964-RGB,alpha-2772-OUT;n:type:ShaderForge.SFN_Tex2d,id:7736,x:31820,y:32602,ptovrint:True,ptlb:Alpha,ptin:_MainTex,varname:_MainTex,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:43c82cdfc6aed6f4b96644b421c7bc00,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Tex2d,id:5964,x:31868,y:33028,ptovrint:True,ptlb:Normal Map,ptin:_BumpMap,varname:_BumpMap,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:3,isnm:True;n:type:ShaderForge.SFN_Slider,id:358,x:32153,y:32681,ptovrint:False,ptlb:Metallic,ptin:_Metallic,varname:node_358,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0,max:1;n:type:ShaderForge.SFN_Slider,id:1813,x:32177,y:32816,ptovrint:False,ptlb:Gloss,ptin:_Gloss,varname:_Metallic_copy,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0,max:0.95;n:type:ShaderForge.SFN_Multiply,id:2772,x:32346,y:33026,varname:node_2772,prsc:2|A-7736-R,B-1978-OUT;n:type:ShaderForge.SFN_DepthBlend,id:1978,x:32033,y:33184,varname:node_1978,prsc:2|DIST-5289-OUT;n:type:ShaderForge.SFN_Multiply,id:5261,x:32386,y:32488,varname:node_5261,prsc:2|A-7736-R,B-3317-RGB;n:type:ShaderForge.SFN_Color,id:3317,x:32138,y:32539,ptovrint:False,ptlb:Color,ptin:_Color,varname:node_3317,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:0.5,c2:0.5,c3:0.5,c4:1;n:type:ShaderForge.SFN_Vector1,id:5289,x:31857,y:33280,varname:node_5289,prsc:2,v1:0.01;proporder:5964-7736-358-1813-3317;pass:END;sub:END;*/
+/*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:3,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:True,hqlp:False,rprd:True,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:3,bdst:7,dpts:2,wrdp:False,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:True,qofs:0,qpre:3,rntp:2,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.2980392,fgcg:0.1960784,fgcb:0.1490196,fgca:1,fgde:0.005,fgrn:-5000,fgrf:20000,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:2865,x:32719,y:32712,varname:node_2865,prsc:2|diff-5261-OUT,spec-358-OUT,gloss-1813-OUT,normal-5964-RGB,alpha-2772-OUT;n:type:ShaderForge.SFN_Tex2d,id:7736,x:31820,y:32602,ptovrint:True,ptlb:Alpha,ptin:_MainTex,varname:_MainTex,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:43c82cdfc6aed6f4b96644b421c7bc00,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Tex2d,id:5964,x:31868,y:33028,ptovrint:True,ptlb:Normal Map,ptin:_BumpMap,varname:_BumpMap,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:3,isnm:True|UVIN-790-UVOUT;n:type:ShaderForge.SFN_Slider,id:358,x:32153,y:32681,ptovrint:False,ptlb:Metallic,ptin:_Metallic,varname:node_358,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0,max:1;n:type:ShaderForge.SFN_Slider,id:1813,x:32177,y:32816,ptovrint:False,ptlb:Gloss,ptin:_Gloss,varname:_Metallic_copy,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0,max:0.95;n:type:ShaderForge.SFN_Multiply,id:2772,x:32346,y:33026,varname:node_2772,prsc:2|A-7736-R,B-1978-OUT,C-6665-OUT;n:type:ShaderForge.SFN_DepthBlend,id:1978,x:32033,y:33184,varname:node_1978,prsc:2|DIST-5289-OUT;n:type:ShaderForge.SFN_Multiply,id:5261,x:32386,y:32488,varname:node_5261,prsc:2|A-7736-R,B-3317-RGB;n:type:ShaderForge.SFN_Color,id:3317,x:32138,y:32539,ptovrint:False,ptlb:Color,ptin:_Color,varname:node_3317,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:0.5,c2:0.5,c3:0.5,c4:1;n:type:ShaderForge.SFN_Vector1,id:5289,x:31857,y:33280,varname:node_5289,prsc:2,v1:0.01;n:type:ShaderForge.SFN_Vector1,id:6665,x:32206,y:33230,varname:node_6665,prsc:2,v1:0.95;n:type:ShaderForge.SFN_Panner,id:790,x:31518,y:32769,varname:node_790,prsc:2,spu:0,spv:-0.025|UVIN-9825-UVOUT;n:type:ShaderForge.SFN_TexCoord,id:9825,x:31325,y:32783,varname:node_9825,prsc:2,uv:0,uaff:False;proporder:5964-7736-358-1813-3317;pass:END;sub:END;*/
 
 Shader "Shader Forge/Water" {
     Properties {
@@ -100,7 +100,9 @@ Shader "Shader Forge/Water" {
                 i.normalDir = normalize(i.normalDir);
                 float3x3 tangentTransform = float3x3( i.tangentDir, i.bitangentDir, i.normalDir);
                 float3 viewDirection = normalize(_WorldSpaceCameraPos.xyz - i.posWorld.xyz);
-                float3 _BumpMap_var = UnpackNormal(tex2D(_BumpMap,TRANSFORM_TEX(i.uv0, _BumpMap)));
+                float4 node_4373 = _Time;
+                float2 node_790 = (i.uv0+node_4373.g*float2(0,-0.025));
+                float3 _BumpMap_var = UnpackNormal(tex2D(_BumpMap,TRANSFORM_TEX(node_790, _BumpMap)));
                 float3 normalLocal = _BumpMap_var.rgb;
                 float3 normalDirection = normalize(mul( normalLocal, tangentTransform )); // Perturbed normals
                 float3 viewReflectDirection = reflect( -viewDirection, normalDirection );
@@ -205,7 +207,7 @@ Shader "Shader Forge/Water" {
                 float3 diffuse = (directDiffuse + indirectDiffuse) * diffuseColor;
 /// Final Color:
                 float3 finalColor = diffuse + specular;
-                fixed4 finalRGBA = fixed4(finalColor,(_MainTex_var.r*saturate((sceneZ-partZ)/0.01)));
+                fixed4 finalRGBA = fixed4(finalColor,(_MainTex_var.r*saturate((sceneZ-partZ)/0.01)*0.95));
                 UNITY_APPLY_FOG(i.fogCoord, finalRGBA);
                 return finalRGBA;
             }
@@ -285,7 +287,9 @@ Shader "Shader Forge/Water" {
                 i.normalDir = normalize(i.normalDir);
                 float3x3 tangentTransform = float3x3( i.tangentDir, i.bitangentDir, i.normalDir);
                 float3 viewDirection = normalize(_WorldSpaceCameraPos.xyz - i.posWorld.xyz);
-                float3 _BumpMap_var = UnpackNormal(tex2D(_BumpMap,TRANSFORM_TEX(i.uv0, _BumpMap)));
+                float4 node_9130 = _Time;
+                float2 node_790 = (i.uv0+node_9130.g*float2(0,-0.025));
+                float3 _BumpMap_var = UnpackNormal(tex2D(_BumpMap,TRANSFORM_TEX(node_790, _BumpMap)));
                 float3 normalLocal = _BumpMap_var.rgb;
                 float3 normalDirection = normalize(mul( normalLocal, tangentTransform )); // Perturbed normals
                 float sceneZ = max(0,LinearEyeDepth (UNITY_SAMPLE_DEPTH(tex2Dproj(_CameraDepthTexture, UNITY_PROJ_COORD(i.projPos)))) - _ProjectionParams.g);
@@ -337,7 +341,7 @@ Shader "Shader Forge/Water" {
                 float3 diffuse = directDiffuse * diffuseColor;
 /// Final Color:
                 float3 finalColor = diffuse + specular;
-                fixed4 finalRGBA = fixed4(finalColor * (_MainTex_var.r*saturate((sceneZ-partZ)/0.01)),0);
+                fixed4 finalRGBA = fixed4(finalColor * (_MainTex_var.r*saturate((sceneZ-partZ)/0.01)*0.95),0);
                 UNITY_APPLY_FOG(i.fogCoord, finalRGBA);
                 return finalRGBA;
             }
