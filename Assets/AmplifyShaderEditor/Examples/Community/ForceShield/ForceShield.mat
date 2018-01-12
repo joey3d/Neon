@@ -9,7 +9,7 @@ Material:
   m_Name: ForceShield
   m_Shader: {fileID: 4800000, guid: bb0db6d74661dbb4bb11eb9161a14a49, type: 3}
   m_ShaderKeywords: _EMISSION
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -58,6 +58,7 @@ Material:
     - _ShieldPatternPower: 5
     - _ShieldPatternSize: 5
     - _ShieldRimPower: 8.04
+    - _Text: 0
     - _TextEmiss: 6.1
     - __dirty: 0
     m_Colors:

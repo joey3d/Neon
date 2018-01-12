@@ -60,14 +60,14 @@ Shader "Shader Forge/ScrollSign" {
             }
             float4 frag(VertexOutput i) : COLOR {
                 float2 sceneUVs = (i.projPos.xy / i.projPos.w);
-                float4 node_1176 = _Time;
-                float2 node_9810 = ((sceneUVs * 2 - 1).rg+node_1176.g*float2(0.1,0));
+                float4 node_5062 = _Time;
+                float2 node_9810 = ((sceneUVs * 2 - 1).rg+node_5062.g*float2(0.1,0));
                 float4 _SFSUCKS_var = tex2D(_SFSUCKS,TRANSFORM_TEX(node_9810, _SFSUCKS));
                 float node_4510 = (_SFSUCKS_var.r*_Clip);
                 clip(node_4510 - 0.5);
 ////// Lighting:
 ////// Emissive:
-                float2 node_8951 = (i.uv0+node_1176.g*float2(0.1,0));
+                float2 node_8951 = (i.uv0+node_5062.g*float2(0.1,0));
                 float4 node_2960 = tex2D(_Scrollsign,TRANSFORM_TEX(node_8951, _Scrollsign));
                 float3 emissive = (_TextEmiss*saturate((0.5 - 2.0*((_TextColor.rgb*lerp( node_2960.g, node_2960.r, _Text ))-0.5)*((_Color2.rgb*node_4510)-0.5))));
                 float3 finalColor = emissive;
@@ -112,8 +112,8 @@ Shader "Shader Forge/ScrollSign" {
             }
             float4 frag(VertexOutput i) : COLOR {
                 float2 sceneUVs = (i.projPos.xy / i.projPos.w);
-                float4 node_1136 = _Time;
-                float2 node_9810 = ((sceneUVs * 2 - 1).rg+node_1136.g*float2(0.1,0));
+                float4 node_855 = _Time;
+                float2 node_9810 = ((sceneUVs * 2 - 1).rg+node_855.g*float2(0.1,0));
                 float4 _SFSUCKS_var = tex2D(_SFSUCKS,TRANSFORM_TEX(node_9810, _SFSUCKS));
                 float node_4510 = (_SFSUCKS_var.r*_Clip);
                 clip(node_4510 - 0.5);

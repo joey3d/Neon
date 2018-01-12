@@ -15,6 +15,7 @@ MonoBehaviour:
   - {fileID: 114266800332916516}
   - {fileID: 114392943669149752}
   - {fileID: 114948976857422722}
+  - {fileID: 114866927254953998}
 --- !u!114 &114266800332916516
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -303,6 +304,42 @@ MonoBehaviour:
   speedDown:
     overrideState: 1
     value: 1
+--- !u!114 &114866927254953998
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a34fa72bd4185749832024e9c8010bf, type: 3}
+  m_Name: ScreenSpaceReflections
+  m_EditorClassIdentifier: 
+  active: 0
+  enabled:
+    overrideState: 1
+    value: 1
+  preset:
+    overrideState: 1
+    value: 6
+  maximumIterationCount:
+    overrideState: 0
+    value: 16
+  resolution:
+    overrideState: 0
+    value: 0
+  thickness:
+    overrideState: 0
+    value: 8
+  maximumMarchDistance:
+    overrideState: 1
+    value: 100
+  distanceFade:
+    overrideState: 1
+    value: 0
+  vignette:
+    overrideState: 1
+    value: 0
 --- !u!114 &114948976857422722
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -332,7 +369,7 @@ MonoBehaviour:
     value: 10
   anamorphicRatio:
     overrideState: 1
-    value: 1
+    value: 0
   color:
     overrideState: 1
     value: {r: 1, g: 1, b: 1, a: 1}
