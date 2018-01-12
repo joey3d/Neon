@@ -5,8 +5,8 @@ Shader "Terrain"
 	Properties
 	{
 		_TessPhongStrength( "Phong Tess Strength", Range( 0, 1 ) ) = 1
-		_SandNormal("Sand Normal", 2D) = "bump" {}
 		[Header(SF_Dirt)]
+		_SandNormal("Sand Normal", 2D) = "bump" {}
 		_Texture2("Texture 2", 2D) = "bump" {}
 		_Texture0("Texture 0", 2D) = "bump" {}
 		_Texture1("Texture 1", 2D) = "white" {}
@@ -147,7 +147,7 @@ Shader "Terrain"
 			float layeredBlendVar54 = i.vertexColor.b;
 			float4 layeredBlend54 = ( lerp( layeredBlend50,triplanar37_g52 , layeredBlendVar54 ) );
 			o.Albedo = layeredBlend54.xyz;
-			o.Smoothness = 0.65;
+			o.Smoothness = 0.45;
 			o.Alpha = 1;
 		}
 
@@ -158,7 +158,7 @@ Shader "Terrain"
 }
 /*ASEBEGIN
 Version=14001
-7;29;1906;1004;1484.607;553.5176;1;True;True
+7;29;1426;824;1066.198;548.5192;1.310351;True;True
 Node;AmplifyShaderEditor.TexturePropertyNode;96;-2651.348,722.7911;Float;True;Property;_Height2;Height2;9;0;None;False;white;Auto;0;1;SAMPLER2D;0
 Node;AmplifyShaderEditor.RangedFloatNode;101;-3219.643,408.9487;Float;False;Constant;_Float3;Float 3;4;0;0.25;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.TexturePropertyNode;95;-2450.666,302.2083;Float;True;Property;_Height1;Height1;10;0;None;False;white;Auto;0;1;SAMPLER2D;0
@@ -180,15 +180,15 @@ Node;AmplifyShaderEditor.CommentaryNode;59;-1369.516,-1449.577;Float;False;327.8
 Node;AmplifyShaderEditor.LayeredBlendNode;50;-1876.902,-1214.176;Float;False;6;0;FLOAT;0.0;False;1;FLOAT4;0;False;2;FLOAT4;0.0,0,0,0;False;3;FLOAT;0.0;False;4;FLOAT;0.0;False;5;FLOAT;0.0;False;1;FLOAT4;0
 Node;AmplifyShaderEditor.LayeredBlendNode;51;-2247.698,-622.9502;Float;False;6;0;FLOAT;0.0;False;1;FLOAT3;0;False;2;FLOAT3;0,0,0;False;3;FLOAT;0.0;False;4;FLOAT;0.0;False;5;FLOAT;0.0;False;1;FLOAT3;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;109;-400.248,398.3557;Float;False;2;2;0;FLOAT;0.0;False;1;FLOAT;0.0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.LerpOp;119;-1416.922,285.7799;Float;False;3;0;FLOAT;0.0;False;1;FLOAT;0.0;False;2;FLOAT;0.0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.SimpleMultiplyOpNode;41;-1104.4,29.97388;Float;False;2;2;0;FLOAT;0.0;False;1;FLOAT;0.0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.LerpOp;120;-1186.815,162.5087;Float;False;3;0;FLOAT;0.0;False;1;FLOAT;0.0;False;2;FLOAT;0.0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.LayeredBlendNode;54;-1317.183,-1266.049;Float;False;6;0;FLOAT;0.0;False;1;FLOAT4;0;False;2;FLOAT4;0,0,0,0;False;3;FLOAT;0.0;False;4;FLOAT;0.0;False;5;FLOAT;0.0;False;1;FLOAT4;0
-Node;AmplifyShaderEditor.LayeredBlendNode;57;-1934.177,-913.8677;Float;False;6;0;FLOAT;0.0;False;1;FLOAT3;0;False;2;FLOAT3;0,0,0;False;3;FLOAT;0.0;False;4;FLOAT;0.0;False;5;FLOAT;0.0;False;1;FLOAT3;0
+Node;AmplifyShaderEditor.LerpOp;119;-1416.922,285.7799;Float;False;3;0;FLOAT;0.0;False;1;FLOAT;0.0;False;2;FLOAT;0.0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;131;-456.6074,23.48242;Float;False;Constant;_Float2;Float 2;5;0;0.45;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.LerpOp;120;-1186.815,162.5087;Float;False;3;0;FLOAT;0.0;False;1;FLOAT;0.0;False;2;FLOAT;0.0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;41;-1104.4,29.97388;Float;False;2;2;0;FLOAT;0.0;False;1;FLOAT;0.0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;110;-212.8318,408.5216;Float;False;2;2;0;FLOAT;0.0;False;1;FLOAT3;0;False;1;FLOAT3;0
 Node;AmplifyShaderEditor.EdgeLengthCullTessNode;93;-538.3881,811.8547;Float;False;2;0;FLOAT;0.0;False;1;FLOAT;0.0;False;1;FLOAT4;0
+Node;AmplifyShaderEditor.LayeredBlendNode;57;-1934.177,-913.8677;Float;False;6;0;FLOAT;0.0;False;1;FLOAT3;0;False;2;FLOAT3;0,0,0;False;3;FLOAT;0.0;False;4;FLOAT;0.0;False;5;FLOAT;0.0;False;1;FLOAT3;0
 Node;AmplifyShaderEditor.RangedFloatNode;42;-1376.527,70.01457;Float;False;Constant;_Float1;Float 1;1;0;0.8;0;0;0;1;FLOAT;0
-Node;AmplifyShaderEditor.RangedFloatNode;131;-456.6074,23.48242;Float;False;Constant;_Float2;Float 2;5;0;0.65;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.StandardSurfaceOutputNode;0;60,0;Float;False;True;7;Float;ASEMaterialInspector;0;0;Standard;Terrain;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;False;False;Back;0;0;False;0;0;Opaque;0.5;True;False;0;False;Opaque;Geometry;All;True;True;True;True;True;True;True;True;True;True;True;True;True;True;True;True;True;False;0;255;255;0;0;0;0;0;0;0;0;True;2;15;10;25;True;1;True;0;Zero;Zero;0;Zero;Zero;OFF;OFF;0;False;0;0,0,0,0;VertexOffset;True;False;Cylindrical;False;Relative;0;;-1;-1;-1;-1;0;0;0;False;0;16;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;2;FLOAT3;0,0,0;False;3;FLOAT;0.0;False;4;FLOAT;0.0;False;5;FLOAT;0.0;False;6;FLOAT3;0,0,0;False;7;FLOAT3;0,0,0;False;8;FLOAT;0.0;False;9;FLOAT;0.0;False;10;FLOAT;0.0;False;13;FLOAT3;0,0,0;False;11;FLOAT3;0,0,0;False;12;FLOAT3;0,0,0;False;14;FLOAT4;0,0,0,0;False;15;FLOAT3;0,0,0;False;0
 WireConnection;98;0;95;0
 WireConnection;98;3;101;0
@@ -213,28 +213,28 @@ WireConnection;51;1;130;0
 WireConnection;51;2;130;1
 WireConnection;109;0;116;0
 WireConnection;109;1;111;0
-WireConnection;119;0;99;2
-WireConnection;119;1;98;2
-WireConnection;119;2;6;1
-WireConnection;41;0;6;2
-WireConnection;41;1;42;0
-WireConnection;120;0;119;0
-WireConnection;120;1;100;2
-WireConnection;120;2;6;3
 WireConnection;54;0;6;3
 WireConnection;54;1;50;0
 WireConnection;54;2;130;3
-WireConnection;57;0;6;3
-WireConnection;57;1;51;0
-WireConnection;57;2;130;2
+WireConnection;119;0;99;2
+WireConnection;119;1;98;2
+WireConnection;119;2;6;1
+WireConnection;120;0;119;0
+WireConnection;120;1;100;2
+WireConnection;120;2;6;3
+WireConnection;41;0;6;2
+WireConnection;41;1;42;0
 WireConnection;110;0;109;0
 WireConnection;110;1;112;0
 WireConnection;93;0;107;0
 WireConnection;93;1;108;0
+WireConnection;57;0;6;3
+WireConnection;57;1;51;0
+WireConnection;57;2;130;2
 WireConnection;0;0;54;0
 WireConnection;0;1;57;0
 WireConnection;0;4;131;0
 WireConnection;0;11;110;0
 WireConnection;0;14;93;0
 ASEEND*/
-//CHKSM=F16D4ACDBBFD9000385D44334BEF3C5DCED5EDF1
+//CHKSM=A7D0E8FBAFBF59F5BE50EA85FF384A26CDD27D05
