@@ -63,7 +63,7 @@ Material:
     - __dirty: 0
     m_Colors:
     - _Color: {r: 0, g: 0, b: 0, a: 0}
-    - _Color2: {r: 0.27860048, g: 0.98529404, b: 0, a: 1}
+    - _Color2: {r: 0.22038548, g: 0.7794118, b: 0, a: 1}
     - _HitColor: {r: 1, g: 1, b: 1, a: 1}
     - _HitPosition: {r: 0, g: 0, b: 0, a: 0}
     - _IntersectColor: {r: 0.03137255, g: 0.25882345, b: 0.31764704, a: 1}
