@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 2f7fe11faba6135419ec5aec78a6f3f1
-timeCreated: 1514958390
+guid: 71d4de4d901eba241be7f0fc3f45eaa2
+timeCreated: 1515820894
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -137,7 +137,7 @@ ModelImporter:
     400126: mixamorig:Spine1
     400128: mixamorig:Spine2
     400130: //RootNode
-    7400000: Trip_01
+    7400000: SittingIdle
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -167,10 +167,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Trip_01
+      name: SittingIdle
       takeName: mixamo.com
       firstFrame: 0
-      lastFrame: 125
+      lastFrame: 652
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
