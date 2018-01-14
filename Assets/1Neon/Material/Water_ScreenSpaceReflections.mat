@@ -27,15 +27,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _E3:
-        m_Texture: {fileID: 2800000, guid: 515e71cb5929fe44fa9b20e9cb33f00f, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _N1:
-        m_Texture: {fileID: 2800000, guid: 80b6110e30153aa4ea72aab9464006c4, type: 3}
+        m_Texture: {fileID: 2800000, guid: 73faead56eeccd64b84c8696895b58e2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _N2:
         m_Texture: {fileID: 2800000, guid: 80b6110e30153aa4ea72aab9464006c4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterNormal:
+        m_Texture: {fileID: 2800000, guid: 73faead56eeccd64b84c8696895b58e2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -43,8 +47,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _E_Intensity: 0.28
-    - _Roughness: 0.925
+    - _E_Intensity: 0
+    - _Roughness: 1
     - __dirty: 0
     m_Colors:
-    - _Color: {r: 0.19852936, g: 0.19852936, b: 0.19852936, a: 0}
+    - _Color: {r: 0.3215684, g: 0.2745096, b: 0.21176445, a: 1}
