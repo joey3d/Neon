@@ -21,12 +21,12 @@ GameObject:
   - component: {fileID: 4065522862433706}
   - component: {fileID: 33459660873878728}
   - component: {fileID: 23041394095428028}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4065522862433706
 Transform:
@@ -34,8 +34,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1804077739785160}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -50.16538, y: 0.14, z: -40.67251}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -50.16538, y: 0, z: -39.25}
   m_LocalScale: {x: 0.708546, y: 0.708546, z: 0.708546}
   m_Children: []
   m_Father: {fileID: 0}
@@ -55,7 +55,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 9ba979e9af6592b418bf1f897066d3c8, type: 2}
+  - {fileID: 2100000, guid: c211cd9702ea0304a80977832f8d3461, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
