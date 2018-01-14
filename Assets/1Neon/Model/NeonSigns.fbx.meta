@@ -15,6 +15,7 @@ ModelImporter:
     100014: Plane.006
     100016: Plane.007
     100018: Plane.008
+    100020: Plane.009
     400000: //RootNode
     400002: Plane
     400004: Plane.001
@@ -25,7 +26,9 @@ ModelImporter:
     400014: Plane.006
     400016: Plane.007
     400018: Plane.008
+    400020: Plane.009
     2100000: No Name
+    2100002: lambert1
     2300000: Plane
     2300002: Plane.001
     2300004: Plane.002
@@ -35,6 +38,7 @@ ModelImporter:
     2300012: Plane.006
     2300014: Plane.007
     2300016: Plane.008
+    2300018: Plane.009
     3300000: Plane
     3300002: Plane.001
     3300004: Plane.002
@@ -44,6 +48,7 @@ ModelImporter:
     3300012: Plane.006
     3300014: Plane.007
     3300016: Plane.008
+    3300018: Plane.009
     4300000: Plane.008
     4300002: Plane.007
     4300004: Plane.006
@@ -53,6 +58,7 @@ ModelImporter:
     4300012: Plane.002
     4300014: Plane.001
     4300016: Plane
+    4300018: Plane.009
   externalObjects: {}
   materials:
     importMaterials: 1
