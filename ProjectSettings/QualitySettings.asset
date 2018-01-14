@@ -153,11 +153,11 @@ QualitySettings:
     shadowResolution: 3
     shadowProjection: 1
     shadowCascades: 4
-    shadowDistance: 20000
+    shadowDistance: 500
     shadowNearPlaneOffset: 2
     shadowCascade2Split: 0.17653355
     shadowCascade4Split: {x: 0.013757791, y: 0.020246726, z: 0.12431906}
-    shadowmaskMode: 0
+    shadowmaskMode: 1
     blendWeights: 4
     textureQuality: 0
     anisotropicTextures: 2
