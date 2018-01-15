@@ -59,7 +59,7 @@ Material:
     - _ShieldPatternSize: 5
     - _ShieldRimPower: 8.04
     - _Text: 1
-    - _TextEmiss: 13.7
+    - _TextEmiss: 8
     - __dirty: 0
     m_Colors:
     - _Color: {r: 0, g: 0, b: 0, a: 0}
