@@ -79,8 +79,8 @@ Shader "Shader Forge/Examples/Pixel Rotator" {
                 float2 node_741_skew = node_744 + 0.2127+node_744.x*0.3713*node_744.y;
                 float2 node_741_rnd = 4.789*sin(489.123*(node_741_skew));
                 float node_741 = frac(node_741_rnd.x*node_741_rnd.y*(1+node_741_skew.x));
-                float4 node_1233 = _Time;
-                float node_563_ang = node_1233.g;
+                float4 node_1817 = _Time;
+                float node_563_ang = node_1817.g;
                 float node_563_spd = 1.0;
                 float node_563_cos = cos(node_563_spd*node_563_ang);
                 float node_563_sin = sin(node_563_spd*node_563_ang);
@@ -165,8 +165,8 @@ Shader "Shader Forge/Examples/Pixel Rotator" {
                 float2 node_741_skew = node_744 + 0.2127+node_744.x*0.3713*node_744.y;
                 float2 node_741_rnd = 4.789*sin(489.123*(node_741_skew));
                 float node_741 = frac(node_741_rnd.x*node_741_rnd.y*(1+node_741_skew.x));
-                float4 node_4418 = _Time;
-                float node_563_ang = node_4418.g;
+                float4 node_1127 = _Time;
+                float node_563_ang = node_1127.g;
                 float node_563_spd = 1.0;
                 float node_563_cos = cos(node_563_spd*node_563_ang);
                 float node_563_sin = sin(node_563_spd*node_563_ang);
